@@ -12,3 +12,6 @@ Electron Tutorial App
 
 		app_navigation - https://www.christianengvall.se/electron-app-navigation/
 			Base copied from hello_world_tutorial
+			cd electron_tutorial_app/app_navigation
+			npm install electron
+			node_modules/electron/dist/electron .
