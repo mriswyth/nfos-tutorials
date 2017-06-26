@@ -15,3 +15,7 @@ Electron Tutorial App
 			cd electron_tutorial_app/app_navigation
 			npm install electron
 			node_modules/electron/dist/electron .
+
+
+		frameless_window - https://www.christianengvall.se/electron-frameless-window/
+			Base copied from app_navigation
