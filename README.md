@@ -8,3 +8,7 @@ Electron Tutorial App
 			cd electron_tutorial_app/hello_world_tutorial
 			npm install electron
 			node_modules/electron/dist/electron .
+
+
+		app_navigation - https://www.christianengvall.se/electron-app-navigation/
+			Base copied from hello_world_tutorial
