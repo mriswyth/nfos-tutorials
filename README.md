@@ -22,3 +22,9 @@ Electron Tutorial App
 			cd electron_tutorial_app/frameless_window
 			npm install electron
 			node_modules/electron/dist/electron .
+
+		white_screen_app_startup - https://www.christianengvall.se/electron-white-screen-app-startup/
+			Base copied from electron-frameless-window
+			cd electron_tutorial_app/white_screen_app_startup
+			npm install electron
+			node_modules/electron/dist/electron .
