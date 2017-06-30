@@ -16,7 +16,7 @@ let mainWindow
 function createWindow() {
 	// Create the browser window
 	//mainWindow = new BrowserWindow({frame: false, width: 1281, height: 800, minWidth: 1281, minHeight: 800})
-	mainWindow = new BrowserWindow({titleBarStyle: 'hidden', width: 1281, height: 800, minWidth: 1281, minHeight: 800, backgroundColor: '#312450'})
+	mainWindow = new BrowserWindow({titleBarStyle: 'hidden', width: 1281, height: 800, minWidth: 1281, minHeight: 800, backgroundColor: '#312450', show: false})
 
 	// and load the index.html of the app
 	mainWindow.loadURL(`file://${__dirname}/index.html`)
@@ -30,6 +30,10 @@ function createWindow() {
 		// in and array if your app supports multi windows, this is the time
 		// when you should delete the corresponding element.
 		mainWindow = null
+	})
+
+	mainWindow.once('ready-to-show', () => {
+		mainWindow.show()
 	})
 }
 
