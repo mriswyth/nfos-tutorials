@@ -28,3 +28,7 @@ Electron Tutorial App
 			cd electron_tutorial_app/white_screen_app_startup
 			npm install electron
 			node_modules/electron/dist/electron .
+
+
+		app_icons - https://www.christianengvall.se/electron-app-icons/
+			Base copied from white_screen_app_startup
