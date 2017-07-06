@@ -42,3 +42,4 @@ Electron Tutorial App
 			cd electron_tutorial_app/packager_tutorial
 			npm i
 			To run: node_modules/electron/dist/electron .
+			To build: npm run package-win
