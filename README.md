@@ -35,3 +35,7 @@ Electron Tutorial App
 			cd electron_tutorial_app/app_icons
 			npm install electron
 			node_modules/electron/dist/electron .
+
+
+		packager_tutorial - https://www.christianengvall.se/electron-packager-tutorial/
+			Base copied from app_icons 
