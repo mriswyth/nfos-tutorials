@@ -1,4 +1,5 @@
 const electron = require('electron')
+var path = require('path')
 
 // Module to control application life.
 
@@ -16,7 +17,16 @@ let mainWindow
 function createWindow() {
 	// Create the browser window
 	//mainWindow = new BrowserWindow({frame: false, width: 1281, height: 800, minWidth: 1281, minHeight: 800})
-	mainWindow = new BrowserWindow({titleBarStyle: 'hidden', width: 1281, height: 800, minWidth: 1281, minHeight: 800, backgroundColor: '#312450', show: false})
+	mainWindow = new BrowserWindow({
+		titleBarStyle: 'hidden',
+		width: 1281,
+		height: 800,
+		minWidth: 1281,
+		minHeight: 800,
+		backgroundColor: '#312450',
+		show: false,
+		icon: path.join(__dirname, 'assets/icons/png/64x64.png')
+	})
 
 	// and load the index.html of the app
 	mainWindow.loadURL(`file://${__dirname}/index.html`)

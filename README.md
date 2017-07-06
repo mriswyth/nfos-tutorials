@@ -32,3 +32,6 @@ Electron Tutorial App
 
 		app_icons - https://www.christianengvall.se/electron-app-icons/
 			Base copied from white_screen_app_startup
+			cd electron_tutorial_app/app_icons
+			npm install electron
+			node_modules/electron/dist/electron .
