@@ -39,3 +39,6 @@ Electron Tutorial App
 
 		packager_tutorial - https://www.christianengvall.se/electron-packager-tutorial/
 			Base copied from app_icons 
+			cd electron_tutorial_app/packager_tutorial
+			npm i
+			To run: node_modules/electron/dist/electron .
