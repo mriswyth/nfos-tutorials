@@ -45,6 +45,8 @@ function createWindow() {
 	mainWindow.once('ready-to-show', () => {
 		mainWindow.show()
 	})
+
+	require('./menu/mainmenu')
 }
 
 // This method will be called when Electron has finished

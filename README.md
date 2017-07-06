@@ -47,3 +47,6 @@ Electron Tutorial App
 		menu - https://www.christianengvall.se/electron-menu/
 			Base copied from packager_tutorial
 			cd electron_tutorial_app/menu
+			npm i
+			To run: node_modules/electron/dist/electron .
+			To build: npm run package-win
